@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis'); /* importando a fonte do Google Fonts - importe a fonte de sua preferência */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+.cartao { 
+  width: 360px; /* não alterar */
+  height: 520px; /* não alterar */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('fundo.jpeg'); /* altere com outra imagem ou cor */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* altere os nomes das class<link rel="stylesheet" href="./style/style2.css">es e id para o seu nome, faça o mesmo no html (exceto para a classe cartão) */
+
+
+.imagem__perfil {
+  width: 180px; /* não alterar para maior do que 360px */
+  border-radius: 50%;
+}
+
+.titulo__carol {
+  font-family: 'Montserrat', sans-serif; 
+  text-align: center;
+  color: #000000 ;
+  
+}
+.resumo{
+  font-family: 'Dosis';
+  text-align: center;
+  color: #5F0000;
+  font-size: 17px;
+  font-weight: 560;
+}
+
+.titulo__carol {
+  font-size: 25px;
+}
+
+
+.links__Carol {
+  display: flex;
+  gap: 12px;
+}
+
+.imagem_logo{
+  display: flex;
+  gap: 20px;
+  width: 35px;
+
+}
+.apresentacao__links{
+  text-decoration: none;
+  color: transparent; 
+  display: inline-block;
+}
